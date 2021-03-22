@@ -28,9 +28,9 @@ export default function App() {
       {info.data && (
         <ul>
           {info.data.map((member) => (
-            <li key={member.login}>
+            <li key={member.login}></li>
               
-            </li>
+            
 
           ))}
         </ul>
