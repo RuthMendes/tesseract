@@ -12,4 +12,4 @@ export default function useDebounce(fn, delay) {
     }
 
     return debounceFn
-}
+} 

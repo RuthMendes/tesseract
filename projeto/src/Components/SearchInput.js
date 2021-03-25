@@ -1,7 +1,7 @@
 import React, {useState} from 'react';
 import useDebounce from '../Hooks/useDebounce'
 
-const Input = ({value, onChange}) => {
+const SearchInput = ({value, onChange}) => {
     const [displayValue, setDisplayValue] = useState(value);
     const debouncedChange = useDebounce(onChange, 500);
 
@@ -15,4 +15,4 @@ const Input = ({value, onChange}) => {
     );
 }
 
-export default Input;
+export default SearchInput;
