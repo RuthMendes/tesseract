@@ -5,3 +5,4 @@ export const goToHome = (history) => {
 export const goToInfo = (history, parameter) => {
   history.push(`/info/${parameter}`);
 };
+

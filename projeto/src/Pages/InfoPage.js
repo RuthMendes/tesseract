@@ -1,10 +1,15 @@
 import React, { useEffect, useState } from 'react';
-import HomePage from './HomePage';
 import styled from 'styled-components';
 
 const Image = styled.img`
-  width: 250px;
+padding-top: 100px;
+margin-left: 500px;
+max-width:400px;
+max-height:300px
 `;
+const Ul = styled.ul` 
+margin-left: 50px;
+`
 
 const api = 'https://api.github.com/users/';
 
@@ -24,18 +29,21 @@ function InfoPage(props) {
     };
 
     findUsersOrg();
-  }, []);
+  }, [username]);
 
   return (
     <div>
       {info && (
         <>
+        <Ul>
           <Image src={info.avatar_url} alt="avatar" />
           <p>Nome:</p>
-          <p>{info.name}</p>
+          <p><strong>{info.name}</strong></p>
           <p>Seguidores:</p>
-          <p>{info.followers}</p>
-        
+          <p><strong>{info.followers}</strong></p>
+          <p>Seguindo:</p>
+          <p><strong>{info.following}</strong></p>
+        </Ul>
 
         </>
       )}
