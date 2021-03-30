@@ -5,7 +5,7 @@ Neste projeto, eu utilizei a biblioteca ReactJs. E o intuito deste projeto é te
 # Link do surge:
 http://stiff-throat.surge.sh/
 
-Api:
+# Api:
 https://api.github.com/orgs/grupotesseract/public_members
 
 ## Como executar:
@@ -23,7 +23,7 @@ https://api.github.com/orgs/grupotesseract/public_members
 * Ao clicar em um membro, exibir informações sobre: data de entrada no github e quantidade de repositórios;
 
 
-##Tempo gasto +-:
+# Tempo gasto +-:
 
 *HomePage: 3 dias, 5h
 *InfoPage: 2 dias, 6h
