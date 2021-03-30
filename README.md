@@ -14,9 +14,10 @@ https://api.github.com/orgs/grupotesseract/public_members
 
 ## Requisitos implementados:
 
-* Lista com os atuais membros no Github, com login e foto;
-* Campo de filtro para filtrar os membros (por login);
-*Ao clicar em um membro, exibir informações do mesmo (nome, seguidores, seguindo);
+- Lista com os atuais membros no Github, com login e foto;
+- Campo de filtro para filtrar os membros (por login);
+- Ao clicar em um membro, exibir informações do mesmo (nome, seguidores, seguindo);
+
 
 ## Requisitos não implementados:
 
